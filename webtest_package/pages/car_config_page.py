@@ -30,3 +30,4 @@ class carConfigPage:
         engine_type_check = wait_to_be_visible(self.driver, 5, (By.XPATH, f'//*[@id="contents"]//span[contains(text(), "{engine_type_to_check}")]'))
         engine_type_text = engine_type_check.text
         return engine_type_text
+#
